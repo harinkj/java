@@ -7,7 +7,7 @@ trigger:
 - windowsAzPipeline
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 steps:
 - script: echo Hello, world!
