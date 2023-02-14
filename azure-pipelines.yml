@@ -4,10 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- windowsAzPipeline
+- macAzPipeline
 
 pool:
-  vmImage: windows-latest
+  vmImage: macOS-latest
 
 steps:
 - script: echo Hello, world!
